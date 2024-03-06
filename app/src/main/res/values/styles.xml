@@ -1,0 +1,10 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">@color/lightPurple</item>
+    <item name="colorPrimaryDark">@color/darkPurple</item>
+    <item name="colorAccent">@color/darkPurple</item>
+  </style>
+
+</resources>

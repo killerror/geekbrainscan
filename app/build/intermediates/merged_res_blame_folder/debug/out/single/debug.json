@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-merged_res-22:\\drawable_gbscan.png.flat",
+        "source": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-main-24:\\drawable\\gbscan.png"
+    },
+    {
+        "merged": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-merged_res-22:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-main-24:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-merged_res-22:\\drawable_brain.png.flat",
+        "source": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-main-24:\\drawable\\brain.png"
+    },
+    {
+        "merged": "com.google.mlkit.samples.codescanner.app-merged_res-22:/layout_activity_main.xml.flat",
+        "source": "com.google.mlkit.samples.codescanner.app-main-24:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-merged_res-22:\\drawable_logo_mlkit.xml.flat",
+        "source": "C:\\Users\\rmurz\\.gradle\\daemon\\7.5\\com.google.mlkit.samples.codescanner.app-main-24:\\drawable\\logo_mlkit.xml"
+    }
+]

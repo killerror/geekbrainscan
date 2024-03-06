@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name" translatable="false">Geek Brainscan</string>
+  <string name="allow_manual_input" translatable="false">Allow input code manually</string>
+  <string name="enable_auto_zoom" translatable="false">Enable auto-zoom feature</string>
+  <string name="scan_barcode_button" translatable="false">Сканировать</string>
+  <string name="barcode_result" translatable="false">Успешное сканирование.\n%1$s</string>
+  <string name="error_scanner_cancelled" translatable="false">Сканирование отменено</string>
+  <string name="error_camera_permission_not_granted" translatable="false">В доступе к камере отказано</string>
+  <string name="error_app_name_unavailable" translatable="false">App name is not set.</string>
+  <string name="error_default_message" translatable="false">Не удалось отсканировать: %1$s</string>
+</resources>

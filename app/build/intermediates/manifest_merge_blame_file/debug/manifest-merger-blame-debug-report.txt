@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.killerror.mlkit.geekbrainscan.codescanner"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:6:3-76
+11-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:6:20-74
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:7:3-64
+12-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:7:20-62
+13
+14    <application
+14-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:9:3-40:17
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] C:\Users\rmurz\.gradle\caches\transforms-3\bc04007aa3d770d97fa2b0cea2748777\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@drawable/brain"
+17-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:10:7-37
+18        android:label="@string/app_name"
+18-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:11:7-39
+19        android:taskAffinity=""
+19-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:12:7-30
+20        android:theme="@style/AppTheme" >
+20-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:13:7-38
+21        <meta-data
+21-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:15:5-17:65
+22            android:name="com.google.android.gms.version"
+22-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:16:9-54
+23            android:value="@integer/google_play_services_version" />
+23-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:17:9-62
+24        <meta-data
+24-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:19:5-21:37
+25            android:name="com.google.mlkit.vision.DEPENDENCIES"
+25-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:20:9-60
+26            android:value="barcode_ui" />
+26-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:21:9-35
+27
+28        <activity
+28-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:23:5-30:16
+29            android:name="com.killerror.mlkit.geekbrainscan.codescanner.kotlin.MainActivity"
+29-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:24:9-89
+30            android:exported="true" >
+30-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:25:9-32
+31            <intent-filter>
+31-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:26:7-29:23
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:27:9-61
+32-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:27:17-58
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:28:9-69
+34-->D:\usr\gb\diplom\mlkit-master\android\codescanner\app\src\main\AndroidManifest.xml:28:19-66
+35            </intent-filter>
+36        </activity>
+37
+38        <!-- <activity -->
+39        <!-- android:name=".java.MainActivity" -->
+40        <!-- android:exported="false" /> -->
+41
+42
+43        <!-- <activity -->
+44        <!-- android:name=".kotlin.MainActivity" -->
+45        <!-- android:exported="false" /> -->
+46
+47
+48        <!--
+49        This activity is an invisible delegate activity to start scanner activity
+50        and receive result, so it's unnecessary to support screen orientation and
+51        we can avoid any side effect from activity recreation in any case.
+52        -->
+53        <activity
+53-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\2c61e2414f8f6fe46045c5632ad7f92d\transformed\jetified-play-services-code-scanner-16.1.0\AndroidManifest.xml:15:9-20:20
+54            android:name="com.google.mlkit.vision.codescanner.internal.GmsBarcodeScanningDelegateActivity"
+54-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\2c61e2414f8f6fe46045c5632ad7f92d\transformed\jetified-play-services-code-scanner-16.1.0\AndroidManifest.xml:16:13-107
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\2c61e2414f8f6fe46045c5632ad7f92d\transformed\jetified-play-services-code-scanner-16.1.0\AndroidManifest.xml:17:13-37
+56            android:screenOrientation="portrait" >
+56-->[com.google.android.gms:play-services-code-scanner:16.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\2c61e2414f8f6fe46045c5632ad7f92d\transformed\jetified-play-services-code-scanner-16.1.0\AndroidManifest.xml:18:13-49
+57        </activity>
+58
+59        <service
+59-->[com.google.mlkit:vision-common:17.0.0] C:\Users\rmurz\.gradle\caches\transforms-3\6d94c83053318742151a803f404a12a3\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:9:9-15:19
+60            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+60-->[com.google.mlkit:vision-common:17.0.0] C:\Users\rmurz\.gradle\caches\transforms-3\6d94c83053318742151a803f404a12a3\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:10:13-91
+61            android:directBootAware="true"
+61-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:17:13-43
+62            android:exported="false" >
+62-->[com.google.mlkit:vision-common:17.0.0] C:\Users\rmurz\.gradle\caches\transforms-3\6d94c83053318742151a803f404a12a3\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:11:13-37
+63            <meta-data
+63-->[com.google.mlkit:vision-common:17.0.0] C:\Users\rmurz\.gradle\caches\transforms-3\6d94c83053318742151a803f404a12a3\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:12:13-14:85
+64                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+64-->[com.google.mlkit:vision-common:17.0.0] C:\Users\rmurz\.gradle\caches\transforms-3\6d94c83053318742151a803f404a12a3\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:13:17-124
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.mlkit:vision-common:17.0.0] C:\Users\rmurz\.gradle\caches\transforms-3\6d94c83053318742151a803f404a12a3\transformed\jetified-vision-common-17.0.0\AndroidManifest.xml:14:17-82
+66            <meta-data
+66-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:20:13-22:85
+67                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+67-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:21:17-120
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:22:17-82
+69        </service>
+70
+71        <provider
+71-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:9:9-13:38
+72            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+72-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:10:13-78
+73            android:authorities="com.killerror.mlkit.geekbrainscan.codescanner.mlkitinitprovider"
+73-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:11:13-69
+74            android:exported="false"
+74-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:12:13-37
+75            android:initOrder="99" />
+75-->[com.google.mlkit:common:18.9.0] C:\Users\rmurz\.gradle\caches\transforms-3\d0e61fbb71b7581e77862b28e84a97e6\transformed\jetified-common-18.9.0\AndroidManifest.xml:13:13-35
+76
+77        <activity
+77-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\a25d571531de8d8b57314bdd5758416f\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+78-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\a25d571531de8d8b57314bdd5758416f\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+79            android:exported="false"
+79-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\a25d571531de8d8b57314bdd5758416f\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\rmurz\.gradle\caches\transforms-3\a25d571531de8d8b57314bdd5758416f\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+81
+82        <service
+82-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rmurz\.gradle\caches\transforms-3\9ca8cf77ce64179244e0101463861fdb\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+83            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+83-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rmurz\.gradle\caches\transforms-3\9ca8cf77ce64179244e0101463861fdb\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+84            android:exported="false" >
+84-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rmurz\.gradle\caches\transforms-3\9ca8cf77ce64179244e0101463861fdb\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+85            <meta-data
+85-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rmurz\.gradle\caches\transforms-3\9ca8cf77ce64179244e0101463861fdb\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+86                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+86-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rmurz\.gradle\caches\transforms-3\9ca8cf77ce64179244e0101463861fdb\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+87                android:value="cct" />
+87-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\rmurz\.gradle\caches\transforms-3\9ca8cf77ce64179244e0101463861fdb\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+88        </service>
+89        <service
+89-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+90            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+90-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+91            android:exported="false"
+91-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+92            android:permission="android.permission.BIND_JOB_SERVICE" >
+92-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+93        </service>
+94
+95        <receiver
+95-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+96            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+96-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+97            android:exported="false" />
+97-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\rmurz\.gradle\caches\transforms-3\5e2cf8c73b5aaa5f98a5b19f7d56da39\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+98    </application>
+99
+100</manifest>
