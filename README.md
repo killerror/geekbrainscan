@@ -4,6 +4,10 @@
 
 Мобильное приложение мультиформатного сканирования штрихкодов на платформе Android.
 
+## Ссылка на приложение
+
+[Собранное приложение](https://github.com/killerror/geekbrainscan/raw/master/app/build/outputs/apk/debug/geekbrainscan.apk)
+
 ## Краткая инструкция
 
 * Запустите на смартфоне под управлением ОС Android
